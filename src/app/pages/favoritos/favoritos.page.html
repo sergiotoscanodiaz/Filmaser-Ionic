@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="toolbar">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Lista de favoritos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="content">
+  <h1 *ngIf="favoritos.length < 1" class="ion-text-center"> ¡No hay series <ion-icon name="sad-outline"></ion-icon>!</h1>
+  <div *ngFor="let serie of favoritos">
+    <div class="ion-margin-top">
+      <div (click)="showDetails(serie.id)" class="ion-text-center">
+        <img src="assets/img/{{serie.imagen}}" width="" height="200px" alt=""> 
+        <h2>{{serie.titulo}}</h2>
+      </div>
+      <div class="ion-margin" *ngIf="clicked && favoritos[index].id == serie.id">
+        <h4>Géneros</h4>
+        <ul>
+          <li *ngFor="let g of serie.generos"><i>{{ g }}</i></li>
+        </ul>
+        <h4>Sinopsis</h4>
+        <p><i>{{ serie.descripcion }}</i></p>
+        <h4>Año</h4>
+        <p><i>{{ serie.anio }}</i></p>
+        <ion-button color="button" (click)="alertDeleteFavorito(serie)">Quitar de favoritos</ion-button>
+      </div>
+      <ion-item-divider color="content"></ion-item-divider>
+    </div>
+  </div>
+
+</ion-content>

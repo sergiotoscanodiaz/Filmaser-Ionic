@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar color="toolbar" class="ion-text-center">
+    <ion-title>
+      <h1>Filmaser-Ionic</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="content">
+
+  <ion-card color="toolbar" class="ion-text-center">
+    <img src="assets/img/logo.png" height="430px">
+    <ion-card-header>
+      <ion-card-title>
+        <ion-icon name="hand-left"></ion-icon>
+        <b>¡BIENVENIDO A FILMASER!</b>
+        <ion-icon name="hand-right"></ion-icon>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      En esta página pordrás ver un buen catálogo de series. Además, puedes añadir las que te gusten a tu lista de
+      favoritos.<br>
+      ¡Buen día <b>FILMASERIÉFILO!</b><br>
+      <i id="total">Por ahora contamos con 25 series.</i>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item class="border" color="content">
+    <ion-label position="floating">Genero</ion-label>
+    <ion-select [(ngModel)]="buscarGenero">
+      <ion-select-option value="todos" selected>Todos</ion-select-option>
+      <ion-select-option *ngFor="let g of generos" [value]="g">{{ g }}</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <h1 class="ion-text-center">Lista de series</h1>
+  <br>
+  <div *ngFor="let serie of series">
+    <div *ngIf="serie.generos.includes(buscarGenero) || buscarGenero == 'todos'" class="ion-padding">
+      <div (click)="showDetails(serie.id)" class="ion-padding ion-text-center">
+        <img src="assets/img/{{serie.imagen}}" width="" height="300px" width="250px" alt="">
+        <h1 class="ion-text-center">{{serie.titulo}}</h1>
+      </div>
+      <div *ngIf="clicked && series[index].id == serie.id">
+        <h2>Géneros</h2>
+        <ul>
+          <li *ngFor="let g of serie.generos"><i>{{ g }}</i></li>
+        </ul>
+        <h2>Sinopsis</h2>
+        <p class="ion-text-justify ion-padding"><i>{{ serie.descripcion }}</i></p>
+        <h2>Año</h2>
+        <p class="ion-text-justify ion-padding"><i>{{ serie.anio }}</i></p>
+        <ion-button *ngIf="!serie.esFav" color="button" (click)="addToFavoritos(serie)">
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="blank"></ion-icon>
+          Añadir a tu lista
+        </ion-button>
+        <ion-button *ngIf="serie.esFav" (click)="alertDeleteFavorito(serie)" color="button">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="blank"></ion-icon>
+          Ya está en tu lista de favoritos {{serie.titulo}}
+        </ion-button>
+      </div>
+      <ion-item-divider color="content"></ion-item-divider>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="toolbar">
+    <ion-button color="button" class="ion-margin" expand="full" href="favoritos">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="blank"></ion-icon>
+      Tu lista de favoritos
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

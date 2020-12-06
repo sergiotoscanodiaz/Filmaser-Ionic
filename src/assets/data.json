@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "generos": [
+      "Suspenso",
+      "Drama",
+      "Misterio",
+      "Sobrenatural"
+    ],  
+    "descripcion": "La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad.",
+    "titulo": "Dark",
+    "imagen": "dark.jpg",
+    "anio": 2017
+  },
+  {
+    "id": 2,
+    "generos": [
+      "Thriller",
+      "Drama",
+      "Humor negro",
+      "Drogas"
+    ],  
+    "descripcion": "Walter White un profesor de química de secundaria agobiado por problemas económicos para sostener a su familia y con un cáncer terminal, toma una decisión para ganar dinero y transforma un viejo vehículo en un laboratorio de metanfetaminas rodante.",
+    "titulo": "Breaking Bad",
+    "imagen": "breakingbad.jpg",
+    "anio": 2008
+  },
+  {
+    "id": 3,
+    "generos": [
+      "Ciencia ficción",
+      "Drama",
+      "Acción",
+      "Intriga"
+    ],  
+    "descripcion": "Una forastera huérfana atestigua el suicidio de una mujer y decide asumir su identidad.",
+    "titulo": "Orphan Black",
+    "imagen": "orphanblack.png",
+    "anio": 2013
+  },
+  {
+    "id": 4,
+    "generos": [
+      "Misterio",
+      "Terror psicológico",
+      "Drama",
+      "Thriller"
+    ],  
+    "descripcion": "Después de la muerte de su esposo, Norma Bates compra un motel en la pintoresca ciudad costera de White Pine Bay, ella y su hijo adolescente Norman se dan la oportunidad de comenzar de nuevo. Sin embargo el pueblo no es tan tranquilo como parece.",
+    "titulo": "Bates Motel",
+    "imagen": "batesmotel.jpg",
+    "anio": 2013
+  },
+  {
+    "id": 5,
+    "generos": [
+      "Drama",
+      "Ciencia ficción",
+      "Intriga",
+      "Sobrenatural"
+    ],  
+    "descripcion": "Ocho desconocidos tienen una conexión y comparten sentimientos y habilidades a medida que tratan de evitar su exterminio.",
+    "titulo": "Sense8",
+    "imagen": "sense8.jpg",
+    "anio": 2015
+  },
+  {
+    "id": 6,
+    "generos": [
+      "Drama",
+      "Fantástico",
+      "Intriga",
+      "Acción"
+    ],  
+    "descripcion": "Esta serie, basada en los libros de George R.R. Martin, muestra la competencia entre familias nobles de siete reinos de Westeros, cuya finalidad es ganar el control sobre el Trono de Hierro.",
+    "titulo": "Juego de tronos",
+    "imagen": "got.jpg",
+    "anio": 2011
+  },
+  {
+    "id": 7,
+    "generos": [
+      "Drama",
+      "Thriller",
+      "Drogas",
+      "Informática"
+    ],  
+    "descripcion": "Elliot Alderson, un brillante programador con problemas de ansiedad social, trabaja como ingeniero de ciberseguridad de día y como justiciero de noche. Su vida da un giro cuando unos ciberterroristas lo reclutan.",
+    "titulo": "Mr. Robot",
+    "imagen": "mrrobot.jpg",
+    "anio": 2015
+  },
+  {
+    "id": 8,
+    "generos": [
+      "Drama",
+      "Biográfico",
+      "Mafia",
+      "Drogas"
+    ],  
+    "descripcion": "Serie que narra el ascenso y caída del narcotraficante Pablo Escobar, intentando enfocar la narración de manera ecuánime desde el punto de vista del propio Escobar y de los agentes de la DEA que lucharon por atraparlo.",
+    "titulo": "Narcos",
+    "imagen": "narcos.jpg",
+    "anio": 2015
+  },
+  {
+    "id": 9,
+    "generos": [
+      "Drama",
+      "Intriga",
+      "Adolescencia",
+      "Acoso escolar"
+    ],  
+    "descripcion": "Después de que una mujer joven se quite la vida, su compañero de clase encuentra una misteriosa caja en su patio.",
+    "titulo": "Por trece razones",
+    "imagen": "13rw.jpg",
+    "anio": 2017
+  },
+  {
+    "id": 10,
+    "generos": [
+      "Drama",
+      "Religión",
+      "Comedia dramática"
+    ],  
+    "descripcion": "La historia del joven religioso Lenny Belardo, el primer Papa estadounidense llamado Pío XIII, cuya ascensión parece que fue el resultado de una estrategia simple y efectiva de medios implementada por los Cardenales.",
+    "titulo": "The Young Pope",
+    "imagen": "theyoungpope.jpg",
+    "anio": 2016
+  },
+  {
+    "id": 11,
+    "generos": [
+      "Drama",
+      "Ciencia ficción",
+      "Policíaco",
+      "Fantástico"
+    ],  
+    "descripcion": "El forense estrella de Nueva York, Dr. Henry Morgan no solo estudia los muertos para ayudar a resolver crímenes, sino que también para ayudarse así mismo a resolver su propia inmortalidad misteriosa.",
+    "titulo": "Forever",
+    "imagen": "forever.jpg",
+    "anio": 2014
+  },
+  {
+    "id": 12,
+    "generos": [
+      "Comedia",
+      "Humor",
+      "Sitcom",
+      "Española"
+    ],  
+    "descripcion": "Comedia que se basa en las aventuras y desventuras que surgen en una loca comunidad de vecinos que viven en un pequeño edificio de tres pisos de la calle Desengaño 21.",
+    "titulo": "Aquí no hay quien viva",
+    "imagen": "aqnhqv.jpg",
+    "anio": 2003
+  },
+  {
+    "id": 13,
+    "generos": [
+      "Ciencia ficción",
+      "Thriller",
+      "Terror",
+      "Informática"
+    ],  
+    "descripcion": "El lado oscuro de la era tecnológica en la que se vive: la paranoia de ser vigilados como en un panóptico, los usos terroristas de las nuevas herramientas y su relación con la experiencia cotidiana.",
+    "titulo": "Black Mirror",
+    "imagen": "blackmirror.jpg",
+    "anio": 2011
+  },
+  {
+    "id": 14,
+    "generos": [
+      "Comedia",
+      "Española"
+    ],  
+    "descripcion": "El mundo de Paquita se tambalea cuando su actriz más conocida la abandona inesperadamente. Junto a Magüi, su inseparable asistente, y Álex, un repartidor, Paquita se lanza desesperada al descubrimiento de un nuevo talento.",
+    "titulo": "Paquita Salas",
+    "imagen": "paquita.jpg",
+    "anio": 2016
+  },
+  {
+    "id": 15,
+    "generos": [
+      "Acción",
+      "Drama",
+      "Histórico",
+      "Edad Media"
+    ],  
+    "descripcion": "Las aventuras de Ragnar Lothbrok, un vikingo agricultor, mientras asciende para convertirse en el rey de los vikingos.",
+    "titulo": "Vikingos",
+    "imagen": "vikingos.jpg",
+    "anio": 2013
+  },
+  {
+    "id": 16,
+    "generos": [
+      "Thriller",
+      "Ciencia ficción",
+      "Sobrenatural",
+      "Terror"
+    ],  
+    "descripcion": "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.",
+    "titulo": "Stranger Things",
+    "imagen": "strangerthings.jpg",
+    "anio": 2016
+  },
+  {
+    "id": 17,
+    "generos": [
+      "Comedia",
+      "Humor",
+      "Sitcom",
+      "Española"
+    ],  
+    "descripcion": "Cuenta la historia de un grupo de vecinos que viven en una urbanización ficticia llamada Urbanización del mirador de montepinar, en donde han construido un nuevo edificio de condominio, en el momento en que comienzan a llegar los nuevos inquilino al edificio empiezan «las locuras».",
+    "titulo": "La que se avecina",
+    "imagen": "lqsa.jpg",
+    "anio": 2007
+  },
+  {
+    "id": 18,
+    "generos": [
+      "Drama",
+      "Mafia",
+      "Crimen",
+      "Thriller"
+    ],  
+    "descripcion": "Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas criminales en una nación agitada. En Birmingham, una pandilla de gánsters callejeros asciende hasta convertirse en los reyes de la clase obrera.",
+    "titulo": "Peaky Blinders",
+    "imagen": "peaky.jpg",
+    "anio": 2013
+  },
+  {
+    "id": 19,
+    "generos": [
+      "Thriller",
+      "Intriga",
+      "Atracos",
+      "Española"
+    ],  
+    "descripcion": "Una banda organizada de ladrones tiene el objetivo de cometer el atraco del siglo en la Fábrica Nacional de Moneda y Timbre. Cinco meses de preparación quedarán reducidos a once días para poder llevar a cabo con éxito el gran golpe.",
+    "titulo": "La casa de papel",
+    "imagen": "casadepapel.jpg",
+    "anio": 2017
+  },
+  {
+    "id": 20,
+    "generos": [
+      "Fantástico",
+      "Videojuego",
+      "Fantasía medieval",
+      "Brujería"
+    ],  
+    "descripcion": "El brujo Geralt, un cazador de monstruos, trata de encontrar su lugar en un mundo en el que las personas suelen ser más malvadas que las bestias.",
+    "titulo": "The Witcher",
+    "imagen": "witcher.jpg",
+    "anio": 2019
+  },
+  {
+    "id": 21,
+    "generos": [
+      "Superhéroes",
+      "Acción",
+      "Comedia negra",
+      "Drama"
+    ],  
+    "descripcion": "Cuando los superhéroes abusan de sus poderes, un grupo de vigilantes llamados The Boys hace todo lo posible por frenarlos, independientemente de los riesgos que ello conlleva.",
+    "titulo": "The Boys",
+    "imagen": "boys.jpg",
+    "anio": 2019
+  },
+  {
+    "id": 22,
+    "generos": [
+      "Comedia",
+      "Vida rural",
+      "Española"
+    ],  
+    "descripcion": "Un grupo de urbanitas huyen de la ciudad por diferentes motivos. La intención de estos extraños es asentarse en un pueblo abandonado y comenzar desde cero sus vidas, pero cuando llegan descubren que todavía hay algunos vecinos: gente rural con una forma muy diferente de ver la vida.",
+    "titulo": "El Pueblo",
+    "imagen": "pueblo.jpg",
+    "anio": 2019
+  },
+  {
+    "id": 23,
+    "generos": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventuras",
+      "Western futurista"
+    ],  
+    "descripcion": "Las aventuras de Mando, un pistolero solitario y cazarrecompensas que se abre paso a través de las fronteras más remotas de la galaxia, lejos de la jurisdicción de la Nueva República.",
+    "titulo": "The Mandalorian",
+    "imagen": "mandalorian.jpg",
+    "anio": 2019
+  },
+  {
+    "id": 24,
+    "generos": [
+      "Animación",
+      "Comedia",
+      "Familia",
+      "Sátira"
+    ],  
+    "descripcion": "En Springfield, los Simpson, una familia de clase trabajadora compuesta por Marge, Homero, Bart, Lisa y Maggie, vive aventuras satíricas.",
+    "titulo": "Los Simpson",
+    "imagen": "simpsons.jpg",
+    "anio": 1989
+  },
+  {
+    "id": 25,
+    "generos": [
+      "Drama",
+      "Comedia negra",
+      "Spin-off",
+      "Crimen"
+    ],  
+    "descripcion": "La vida del peculiar abogado Saul Goodman mientras defiende a narcotraficantes en particular, y a toda suerte de criminales en general.",
+    "titulo": "Better Call Saul",
+    "imagen": "bettercallsaul.jpg",
+    "anio": 2015
+  }   
+]

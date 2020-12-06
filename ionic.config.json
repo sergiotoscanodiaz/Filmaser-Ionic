@@ -1,0 +1,7 @@
+{
+  "name": "Filmaser-Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

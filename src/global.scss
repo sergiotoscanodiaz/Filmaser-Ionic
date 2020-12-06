@@ -1,0 +1,56 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/** Clases de colores personalizados **/
+.ion-color-toolbar {
+    --ion-color-base: var(--ion-color-toolbar);
+    --ion-color-base-rgb: var(--ion-color-toolbar-rgb);
+    --ion-color-contrast: var(--ion-color-toolbar-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-toolbar-contrast-rgb);
+    --ion-color-shade: var(--ion-color-toolbar-shade);
+    --ion-color-tint: var(--ion-color-toolbar-tint);
+  }
+
+  .ion-color-content {
+    --ion-color-base: var(--ion-color-content);
+    --ion-color-base-rgb: var(--ion-color-content-rgb);
+    --ion-color-contrast: var(--ion-color-content-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-content-contrast-rgb);
+    --ion-color-shade: var(--ion-color-content-shade);
+    --ion-color-tint: var(--ion-color-content-tint);
+  }
+
+  .ion-color-button {
+    --ion-color-base: var(--ion-color-button);
+    --ion-color-base-rgb: var(--ion-color-button-rgb);
+    --ion-color-contrast: var(--ion-color-button-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-button-contrast-rgb);
+    --ion-color-shade: var(--ion-color-button-shade);
+    --ion-color-tint: var(--ion-color-button-tint);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
