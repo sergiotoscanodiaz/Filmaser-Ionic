@@ -26,7 +26,7 @@
   </ion-card>
 
   <ion-item class="border" color="content">
-    <ion-label position="floating">Genero</ion-label>
+    <ion-label position="floating">Género</ion-label>
     <ion-select [(ngModel)]="buscarGenero">
       <ion-select-option value="todos" selected>Todos</ion-select-option>
       <ion-select-option *ngFor="let g of generos" [value]="g">{{ g }}</ion-select-option>

@@ -43,17 +43,17 @@ export class SerieService {
     return this.httpClient.get('assets/data.json');
   }
 
-  getFavoritos(): Promise<Serie[]> {
+  getFavoritos(){
     return this.storage.get('favoritos');
   }
 
-  addToFavoritos(serie: Serie): Promise<boolean> {
+  addToFavoritos(serie: Serie) {
     serie.esFav = true;
     this.favoritos.push(serie);
     return this.storage.set('favoritos', this.favoritos);
   }
 
-  deleteFromFavoritos(serie: Serie): Promise<boolean> {
+  deleteFromFavoritos(serie: Serie) {
     serie.esFav = false;
     this.favoritos = this.favoritos.filter(f => f.id != serie.id);
     return this.storage.set('favoritos', this.favoritos);
